@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-weather/static/css/main.4ac845bf.css",
-    "main.js": "/react-weather/static/js/main.4ede8a82.js",
-    "static/js/787.921a87ab.chunk.js": "/react-weather/static/js/787.921a87ab.chunk.js",
-    "static/media/1643268905_31-phonoteka-org-p-pogoda-fon-37.jpg": "/react-weather/static/media/1643268905_31-phonoteka-org-p-pogoda-fon-37.2e695c249410fa4ac388.jpg",
-    "static/media/zoom-glass.svg": "/react-weather/static/media/zoom-glass.5d8f34cc33b3e4198eb7.svg",
-    "index.html": "/react-weather/index.html",
-    "main.4ac845bf.css.map": "/react-weather/static/css/main.4ac845bf.css.map",
-    "main.4ede8a82.js.map": "/react-weather/static/js/main.4ede8a82.js.map",
-    "787.921a87ab.chunk.js.map": "/react-weather/static/js/787.921a87ab.chunk.js.map"
+    "main.css": "/react_weather/static/css/main.3caec76f.css",
+    "main.js": "/react_weather/static/js/main.6743e60b.js",
+    "static/js/787.921a87ab.chunk.js": "/react_weather/static/js/787.921a87ab.chunk.js",
+    "static/media/1643268905_31-phonoteka-org-p-pogoda-fon-37.jpg": "/react_weather/static/media/1643268905_31-phonoteka-org-p-pogoda-fon-37.2e695c249410fa4ac388.jpg",
+    "static/media/zoom-glass.svg": "/react_weather/static/media/zoom-glass.5d8f34cc33b3e4198eb7.svg",
+    "index.html": "/react_weather/index.html",
+    "main.3caec76f.css.map": "/react_weather/static/css/main.3caec76f.css.map",
+    "main.6743e60b.js.map": "/react_weather/static/js/main.6743e60b.js.map",
+    "787.921a87ab.chunk.js.map": "/react_weather/static/js/787.921a87ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac845bf.css",
-    "static/js/main.4ede8a82.js"
+    "static/css/main.3caec76f.css",
+    "static/js/main.6743e60b.js"
   ]
 }
