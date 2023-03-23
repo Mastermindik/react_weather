@@ -5,12 +5,6 @@ import CurrentWeather from './components/CurrentWeather';
 import { useEffect, useState } from 'react';
 import WeatherForecast from './components/WeatherForecast';
 
-/* Бг - погода 
-  графік зміни погоди - ?
-  слайд на вибір іншого міста
-  прогноз на сьогодні + 2 дні ?
-   */
-
 function App() {
   const [currentWeather, setCurrentWeather] = useState('');
   const [fiveDayForecast, setFiveDayForecast] = useState('');
@@ -22,12 +16,9 @@ function App() {
   let lon = localStorage.getItem('cityCoords') ? JSON.parse(localStorage.getItem('cityCoords'))[1] : -0.1257;
 
   useEffect(() => {
-    // setIsLoading(true);
     if (!localStorage.getItem('cityCoords')) {
       localStorage.setItem('cityCoords', JSON.stringify([lat, lon]));
     }
-    // lat = JSON.parse(localStorage.getItem('cityCoords'))[0];
-    // lon = JSON.parse(localStorage.getItem('cityCoords'))[1];
     async function loadWeather() {
       await fetch(`https://api.openweathermap.org/data/2.5/weather?units=metric&lat=${lat}&lon=${lon}&appid=${myKey}`, {
         method: 'GET'
@@ -38,7 +29,6 @@ function App() {
       fetch(`https://openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=metric&appid=439d4b804bc8187953eb36d2a8c26a02`).then(data => data.json()).then(data => setTodayForecast(data.daily[0]))
     }
     loadWeather();
-    // setIsLoading(false)
   }, [lat, lon])
 
   function handleSubmit(e) {
