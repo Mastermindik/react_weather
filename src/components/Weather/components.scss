@@ -33,21 +33,6 @@
     }
 }
 
-// Favorite
-.favorite-cities {
-    height: 5rem;
-
-    display: flex;
-    gap: 1rem;
-    .favorite-city{
-        padding: 0.5rem;
-
-        background: rgba(255, 255, 255, 0.3);
-        backdrop-filter: blur(2px);
-        border-radius: .5rem;
-    }
-}
-
 // Current-weather
 .current-weather {
     margin-top: 1rem;

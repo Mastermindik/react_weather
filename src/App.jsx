@@ -76,12 +76,12 @@ function App() {
     <Container>
       <div className="wraper row justify-content-center p-0 px-sm-3">
         <div className="col-lg-6 row justify-content-center p-0 px-sm-3">
-        {currentWeather && todayForecast ? <CurrentWeather
-          currentWeather={currentWeather}
-          todayForecast={todayForecast} /> : <Spinner animation='border' />}
-        <div className="chart col-12 mt-3">
-          <Chart hourlyForecast={hourlyForecast} />
-        </div>
+          {currentWeather && todayForecast ? <CurrentWeather
+            currentWeather={currentWeather}
+            todayForecast={todayForecast} /> : <Spinner animation='border' />}
+          <div className="chart col-12 mt-3">
+            {currentWeather ? <Chart hourlyForecast={hourlyForecast} /> : <Spinner animation='border' />}
+          </div>
         </div>
         <div className="forecast col-lg-6 p-0 px-sm-3">
           <Accordion defaultActiveKey={0} >
