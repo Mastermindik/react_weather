@@ -5,17 +5,29 @@ $primary-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 body {
     font-family: Roboto;
 }
+h2 {
+    margin: 0;
+}
 
 #root {
-    background: url('./img/bg/1643268905_31-phonoteka-org-p-pogoda-fon-37.jpg') no-repeat center;
+    // background: url('./img/bg/1643268905_31-phonoteka-org-p-pogoda-fon-37.jpg') no-repeat center;
     background-size: cover;
-    height: 100svh;
+    // height: 100svh;
     position: relative;
     // padding: 0.5rem 0;
 }
 
+.header-search {
+    background: #00214a;
+    .container {
+        .cities-search {
+            width: 100%;
+        }
+    }
+}
+
 .container {
-    height: 100svh;
+    // height: 100svh;
     padding: .5rem 0;
     // background: inherit;
     position: relative;

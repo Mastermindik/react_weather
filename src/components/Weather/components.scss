@@ -1,4 +1,4 @@
-@use '../App.scss' as app;
+@use '../../App.scss' as app;
 
 // Cities-search
 .cities-search {
@@ -22,7 +22,7 @@
                 left: 1rem;
                 top: 1rem;
         
-                background: url('../img/search/zoom-glass.svg') no-repeat center;
+                background: url('../../img/search/zoom-glass.svg') no-repeat center;
                 background-size: cover;
                 z-index: 2;
             }
@@ -33,19 +33,28 @@
     }
 }
 
+// Favorite
+.favorite-cities {
+    height: 5rem;
+
+    display: flex;
+    gap: 1rem;
+    .favorite-city{
+        padding: 0.5rem;
+
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(2px);
+        border-radius: .5rem;
+    }
+}
+
 // Current-weather
 .current-weather {
     margin-top: 1rem;
-    justify-content: space-around;
     .temperature {
         .weather-icon {
             display: flex;
-            justify-content: flex-end;
-            img {
-                // width: 100%;
-                max-width: 7rem;
-                max-height: 7rem;
-            }
+            justify-content: center;
         }
         .temperature-description{
             h2 {
@@ -74,8 +83,8 @@
             align-items: center;
 
             text-align: center;
-            font-size: 1.2rem;
-            border-bottom: 1px solid #fff;
+            font-size: 1rem;
+            border-bottom: 1px solid #00214a;;
             p {
                 margin: 0;
             }
@@ -128,5 +137,8 @@
             backdrop-filter: blur(2px);
             border-radius: .5rem;
         }
+    }
+    .accordion-item {
+        border-color: #00214a;
     }
 }
