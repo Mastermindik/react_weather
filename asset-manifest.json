@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/react_weather/static/css/main.3caec76f.css",
-    "main.js": "/react_weather/static/js/main.6743e60b.js",
+    "main.css": "/react_weather/static/css/main.237ba975.css",
+    "main.js": "/react_weather/static/js/main.8c2f97b4.js",
     "static/js/787.921a87ab.chunk.js": "/react_weather/static/js/787.921a87ab.chunk.js",
-    "static/media/1643268905_31-phonoteka-org-p-pogoda-fon-37.jpg": "/react_weather/static/media/1643268905_31-phonoteka-org-p-pogoda-fon-37.2e695c249410fa4ac388.jpg",
     "static/media/zoom-glass.svg": "/react_weather/static/media/zoom-glass.5d8f34cc33b3e4198eb7.svg",
     "index.html": "/react_weather/index.html",
-    "main.3caec76f.css.map": "/react_weather/static/css/main.3caec76f.css.map",
-    "main.6743e60b.js.map": "/react_weather/static/js/main.6743e60b.js.map",
+    "main.237ba975.css.map": "/react_weather/static/css/main.237ba975.css.map",
+    "main.8c2f97b4.js.map": "/react_weather/static/js/main.8c2f97b4.js.map",
     "787.921a87ab.chunk.js.map": "/react_weather/static/js/787.921a87ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3caec76f.css",
-    "static/js/main.6743e60b.js"
+    "static/css/main.237ba975.css",
+    "static/js/main.8c2f97b4.js"
   ]
 }
