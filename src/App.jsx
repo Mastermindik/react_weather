@@ -80,7 +80,7 @@ function App() {
             currentWeather={currentWeather}
             todayForecast={todayForecast} /> : <Spinner animation='border' />}
           <div className="chart col-12 mt-3">
-            {currentWeather ? <Chart hourlyForecast={hourlyForecast} /> : <Spinner animation='border' />}
+            {dailyForecast ? <Chart hourlyForecast={hourlyForecast} /> : <Spinner animation='border' />}
           </div>
         </div>
         <div className="forecast col-lg-6 p-0 px-sm-3">
