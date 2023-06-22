@@ -1,4 +1,4 @@
-import { Line } from 'react-chartjs-2';
+import { Bar, Line } from 'react-chartjs-2';
 import moment from 'moment';
 import {
   Chart as ChartJS,
@@ -115,7 +115,7 @@ function Chart({ hourlyForecast }) {
     <Button variant='light' onClick={handleChange} className='mb-2'>
       {swap ? "Show rain" : "Show temp"}
     </Button>
-    {swap ? <Line data={dataLine} options={optionsLine} /> : <Line data={dataBar} options={optionsBar} />}
+    {swap ? <Line data={dataLine} options={optionsLine} /> : <Bar data={dataBar} options={optionsBar} />}
   </>
 }
 
